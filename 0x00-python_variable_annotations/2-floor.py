@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
-def floor(n: float) -> float:
-    return n
+import math
+
+def floor(n: float) -> int:
+    return math.floor(n)
